@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`basic 1`] = `
+"function classNames() {
+  return args.filter(a => !!a).join(' ');
+}
+
+const cls = cn(\\"text-blue\\");
+
+function Component(props) {
+  let randomClass = [\\"container\\"];
+  randomClass.push(\\"text-red\\");
+  return <div className=\\"replaced_container\\">
+    <span className={classNames(\\"replaced_text-red\\", {
+      \\"replaced_container\\": false
+    }, randomClass, \`replaced_container \${randomClass}\`, cn(\\"replaced_text-blue\\"))}>{props.children}</span>
+  </div>;
+}"
+`;
+
+exports[`experimentalReplaceVariables 1`] = `
+"function classNames() {
+  return args.filter(a => !!a).join(' ');
+}
+
+const cls = cn(\\"text-blue\\");
+
+function Component(props) {
+  let randomClass = [\\"replaced_container\\"];
+  randomClass.push(\\"text-red\\");
+  return <div className=\\"replaced_container\\">
+    <span className={classNames(\\"replaced_text-red\\", {
+      \\"replaced_container\\": false
+    }, randomClass, \`replaced_container \${randomClass}\`, cn(\\"replaced_text-blue\\"))}>{props.children}</span>
+  </div>;
+}"
+`;
+
+exports[`replacerFunctionName 1`] = `
+"function classNames() {
+  return args.filter(a => !!a).join(' ');
+}
+
+const cls = cn(\\"replaced_text-blue\\");
+
+function Component(props) {
+  let randomClass = [\\"container\\"];
+  randomClass.push(\\"text-red\\");
+  return <div className=\\"replaced_container\\">
+    <span className={classNames(\\"replaced_text-red\\", {
+      \\"replaced_container\\": false
+    }, randomClass, \`replaced_container \${randomClass}\`, cn(\\"replaced_text-blue\\"))}>{props.children}</span>
+  </div>;
+}"
+`;
