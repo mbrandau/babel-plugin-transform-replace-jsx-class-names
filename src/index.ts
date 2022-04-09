@@ -1,5 +1,5 @@
 import debug from 'debug';
-import type { types } from '@babel/core';
+import { types } from '@babel/core';
 import { NodePath } from '@babel/traverse';
 import jsx from '@babel/plugin-syntax-jsx';
 
