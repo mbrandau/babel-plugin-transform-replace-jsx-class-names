@@ -1,1 +1,1 @@
-# babel-plugin-transform-jsx-class-names
+# babel-plugin-transform-replace-jsx-class-names

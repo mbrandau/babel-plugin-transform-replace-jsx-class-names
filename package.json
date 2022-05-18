@@ -32,17 +32,17 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "babel-plugin-transform-jsx-class-names",
+  "name": "babel-plugin-transform-replace-jsx-class-names",
   "description": "Renames CSS class names in JSX",
   "author": "Maximilian Brandau",
   "module": "dist/tsdx.esm.js",
   "size-limit": [
     {
-      "path": "dist/babel-plugin-transform-jsx-class-names.cjs.production.min.js",
+      "path": "dist/babel-plugin-transform-replace-jsx-class-names.cjs.production.min.js",
       "limit": "10 KB"
     },
     {
-      "path": "dist/babel-plugin-transform-jsx-class-names.esm.js",
+      "path": "dist/babel-plugin-transform-replace-jsx-class-names.esm.js",
       "limit": "10 KB"
     }
   ],
@@ -70,6 +70,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mbrandau/babel-plugin-transform-jsx-class-names.git"
+    "url": "https://github.com/mbrandau/babel-plugin-transform-replace-jsx-class-names.git"
   }
 }
