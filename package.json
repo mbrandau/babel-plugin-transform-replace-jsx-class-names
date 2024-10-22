@@ -47,10 +47,10 @@
     }
   ],
   "devDependencies": {
-    "@babel/generator": "7.17.12",
-    "@babel/parser": "7.17.12",
-    "@babel/traverse": "7.17.12",
-    "@babel/types": "7.17.12",
+    "@babel/generator": "7.25.9",
+    "@babel/parser": "7.25.9",
+    "@babel/traverse": "7.25.9",
+    "@babel/types": "7.25.9",
     "@semantic-release/changelog": "6.0.1",
     "@semantic-release/git": "10.0.1",
     "@size-limit/preset-small-lib": "7.0.8",
